@@ -266,7 +266,7 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            Additionally, I have been responsible for all marketing, recruitment, hiring, training, site-planning, and customer connections of an education management company that had a seasonal staff of 30+ and over 350 4-12 year-olds per day.
+            I have been responsible for all marketing, recruitment, hiring,training, site-planning, and customer connections of an education management company that had a seasonal staff of 30+ and over 350 4-12 year-olds per day.
             <br /> 
             <br/>
             TLDR: JavaScript • React.js • Redux • Ruby • Ruby on Rails • jQuery • SQL • Git • HTML5 • CSS3 • D3 • Empathy
@@ -293,7 +293,7 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:voorhees.matthew@gmail.com">Hi</a> or find me on other platforms:{' '}
+            Say <a href="mailto:voorhees.matthew@gmail.com">Hi via email</a> (voorhees.matthew@gmail.com)<br/>or find me on other platforms:{' '}
             <a href="https://www.linkedin.com/in/voorheesmatthew/">LinkedIn</a> &{' '}
             <a href="https://github.com/voorheesmatthew/">GitHub</a>
           </ContactText>
