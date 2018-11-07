@@ -168,7 +168,7 @@ const Index = () => (
       <Content speed={0.4} offset={0}>
         <Hero>
           <BigTitle>
-            Hello, <br /> I'm John Doe.
+            Hello,<br />I'm <br />Matt Voorhees.
           </BigTitle>
           <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
         </Hero>
@@ -184,32 +184,32 @@ const Index = () => (
           <Title>Projects</Title>
           <ProjectsWrapper>
             <ProjectCard
-              title="Freiheit"
-              link="https://www.behance.net/gallery/58937147/Freiheit"
+              title="Linkapedia"
+              link="https://www.linkapedia.app/"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
-              This project is my entry to Adobe's #ChallengeYourPerspective contest.
+              A Frontend JavaScript project using D3.js to gamify a visualization of Wikipedia links.
             </ProjectCard>
             <ProjectCard
-              title="Harry Potter"
-              link="https://www.behance.net/gallery/52915793/Harry-Potter"
+              title="Matsana"
+              link="http://www.matsana.io"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
-              I entered the DOCMA 2017 award with this Harry Potter inspired image.
+              Full-stack Ruby on Rails with React and PostgreSQL database For project managment, an Asana clone.
             </ProjectCard>
             <ProjectCard
-              title="Tomb Raider"
-              link="https://www.behance.net/gallery/43907099/Tomb-Raider"
+              title="Fly-To"
+              link="http://www.fly-to.wiki"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
-              Recreation of a Tomb Raider Wallpaper (Fan Art)
+              Team effort to build a budget oriented flight search engine, with user controlled map schemas.
             </ProjectCard>
             <ProjectCard
-              title="Eagle"
-              link="https://www.behance.net/gallery/38068151/Eagle"
+              title="Résumé"
+              link="https://drive.google.com/file/d/1KmXo4FRLgzs8CJEgk1ATI1zzhLxl6rXG/view?usp=sharing"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
-              A fantasy image manipulation relocating the habitat of wild animals.
+              A snapshot of where I came from, and my experience in Software Development.
             </ProjectCard>
           </ProjectsWrapper>
         </Inner>
@@ -262,16 +262,14 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
-              The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-              Emoji into my speech to better express myself. Winky face.
+              I'm an autodidactic Software Developer, experienced in JavaScript (React.js, jQuery, Redux), Ruby on Rails, SQL, Git, HTML5, and CSS3. For the past several years I worked with a team of software engineers to design the robotics component of a coding studio for an art and technology education program. I have built several projects including a clone of Asana, using Ruby on Rails, and a gamified data visualization of Wikipedia links using D3.js and JavaScript. 
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-            every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-            make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The
-            kids want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that
-            all right?
+            Additionally, I have been responsible for all marketing, recruitment, hiring, training, site-planning, and customer connections of an education management company that had a seasonal staff of 30+ and over 350 4-12 year-olds per day.
+            <br /> 
+            <br/>
+            TLDR: JavaScript • React.js • Redux • Ruby • Ruby on Rails • jQuery • SQL • Git • HTML5 • CSS3 • D3 • Empathy
           </AboutDesc>
         </Inner>
       </Content>
@@ -295,14 +293,14 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:plizNoSp4m@domain.tld">Hi</a> or find me on other platforms:{' '}
-            <a href="https://dribbble.com/LekoArts">Dribbble</a> &{' '}
-            <a href="https://www.instagram.com/lekoarts.de/">Instagram</a>
+            Say <a href="mailto:voorhees.matthew@gmail.com">Hi</a> or find me on other platforms:{' '}
+            <a href="https://www.linkedin.com/in/voorheesmatthew/">LinkedIn</a> &{' '}
+            <a href="https://github.com/voorheesmatthew/">GitHub</a>
           </ContactText>
         </Inner>
         <Footer>
-          &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
-          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>.
+          {/* &copy; 2018 by Gatsby Starter Portfolio Cara.{' '}
+          <a href="https://github.com/LekoArts/gatsby-starter-portfolio-cara">Github Repository</a>. */}
         </Footer>
       </Content>
       <Divider speed={0.1} offset={4}>
