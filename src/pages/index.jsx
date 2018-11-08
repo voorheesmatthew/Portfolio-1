@@ -170,7 +170,7 @@ const Index = () => (
           <BigTitle>
             Hello,<br />I'm <br />Matt Voorhees.
           </BigTitle>
-          <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+          <Subtitle>I'm creating user-centered code through empathetic processes.</Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -262,13 +262,13 @@ const Index = () => (
           <AboutHero>
             <Avatar src={avatar} alt="John Doe" />
             <AboutSub>
-              I'm an autodidactic Software Developer, experienced in JavaScript (React.js, jQuery, Redux), Ruby on Rails, SQL, Git, HTML5, and CSS3. For the past several years I worked with a team of software engineers to design the robotics component of a coding studio for an art and technology education program. I have built several projects including a clone of Asana, using Ruby on Rails, and a gamified data visualization of Wikipedia links using D3.js and JavaScript. 
+              I'm an empathetic Software Developer, I've designed the robotics component of a coding studio for an art and technology education program. I have several projects including a clone of Asana, using Ruby on Rails with React, and a gamified data visualization of Wikipedia links using D3.js and JavaScript.
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            I have been responsible for all marketing, recruitment, hiring,training, site-planning, and customer connections of an education management company that had a seasonal staff of 30+ and over 350 4-12 year-olds per day.
-            <br /> 
-            <br/>
+            Beyond coding, I have worn all of the hats in medium size start-up environment: Marketing, recruitment, hiring, training,site-planning, and customer connections to name a few. All for an education management company that had 40 locations across the US, a seasonal staff of 30+ and over 350 4-12 year-olds per day at each location.
+            <br />
+            <br />
             TLDR: JavaScript • React.js • Redux • Ruby • Ruby on Rails • jQuery • SQL • Git • HTML5 • CSS3 • D3 • Empathy
           </AboutDesc>
         </Inner>
@@ -293,7 +293,7 @@ const Index = () => (
         <Inner>
           <Title>Get in touch</Title>
           <ContactText>
-            Say <a href="mailto:voorhees.matthew@gmail.com">Hi via email</a> (voorhees.matthew@gmail.com)<br/>or find me on other platforms:{' '}
+            Say <a href="mailto:voorhees.matthew@gmail.com">Hi via email</a> (voorhees.matthew@gmail.com)<br />or find me on other platforms:{' '}
             <a href="https://www.linkedin.com/in/voorheesmatthew/">LinkedIn</a> &{' '}
             <a href="https://github.com/voorheesmatthew/">GitHub</a>
           </ContactText>
