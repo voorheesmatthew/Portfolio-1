@@ -7,6 +7,7 @@ import 'typeface-open-sans';
 import SEO from '../components/SEO';
 import SVG from '../components/SVG';
 import ProjectCard from '../components/ProjectCard';
+import TechSym from '../components/TechSym';
 import { rotate, UpDown, UpDownWide, waveAnimation } from '../styles/animations';
 import { hidden } from '../styles/utils';
 import { colors } from '../../tailwind';
@@ -80,6 +81,20 @@ const ProjectsWrapper = styled.div`
   display: grid;
   grid-gap: 4rem;
   grid-template-columns: repeat(2, 1fr);
+  @media (max-width: 1200px) {
+    grid-gap: 3rem;
+  }
+  @media (max-width: 900px) {
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+  }
+`;
+
+const TechsWrapper = styled.div`
+  ${tw("flex flex-wrap justify-between mt-8")};
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(5, 1fr);
   @media (max-width: 1200px) {
     grid-gap: 3rem;
   }
@@ -179,7 +194,7 @@ const Index = () => (
         offset={1.1}
         factor={2}
       />
-      <Content speed={0.4} offset={1.2} factor={2}>
+      <Content speed={0.4} offset={.5} factor={2}>
         <Inner>
           <Title>Projects</Title>
           <ProjectsWrapper>
@@ -214,6 +229,8 @@ const Index = () => (
           </ProjectsWrapper>
         </Inner>
       </Content>
+
+
       <Divider speed={0.1} offset={1} factor={2}>
         <UpDown>
           <SVG icon="box" width={6} fill={colors.white} left="85%" top="75%" />
@@ -237,6 +254,60 @@ const Index = () => (
         <SVG icon="hexa" width={8} stroke={colors.yellow} left="80%" top="70%" />
       </Divider>
       <Divider bg="#23262b" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={3} />
+
+      <Content speed={0.4} offset={1.5} factor={2}>
+        <Inner>
+          <Title>Technologies</Title>
+          <TechsWrapper>
+            <TechSym
+              title="JavaScript"
+              bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
+            >
+            </TechSym>
+            <TechSym
+              title="React.js"
+              bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
+            >
+            </TechSym>
+            <TechSym
+              title="Redux"
+              bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
+            >
+            </TechSym>
+            <TechSym
+              title="Ruby"
+              bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
+            >
+            </TechSym>
+            <TechSym
+              title="Ruby on Rails"
+              bg="hotpink"
+            >
+            </TechSym>
+            <TechSym
+              title="SQL"
+              bg="yellow"
+            ></TechSym>
+            <TechSym
+              title="Git"
+              bg="purple"
+            ></TechSym>
+            <TechSym
+              title="HTML5"
+              bg="black"
+            ></TechSym>
+            <TechSym
+              title="CSS3"
+              bg="red"
+            ></TechSym>
+            <TechSym
+              title="D3"
+              bg="blue"
+            ></TechSym>
+          </TechsWrapper>
+        </Inner>
+      </Content>
+
       <Divider speed={0.1} offset={3}>
         <UpDown>
           <SVG icon="box" className={hidden} width={6} fill={colors.blue} left="50%" top="75%" />
@@ -266,13 +337,15 @@ const Index = () => (
             </AboutSub>
           </AboutHero>
           <AboutDesc>
-            Beyond coding, I have worn all of the hats in medium size start-up environment: Marketing, recruitment, hiring, training,site-planning, and customer connections to name a few. All for an education management company that had 40 locations across the US, a seasonal staff of 30+ and over 350 4-12 year-olds per day at each location.
+            Beyond coding, I have worn all of the hats in medium size start-up environments: Marketing, recruitment, hiring, training,site-planning, and customer connections to name a few. All for an education management company that had 40 locations across the US, a seasonal staff of 30+ and over 350 4-12 year-olds per day at each location.
             <br />
-            <br />
-            TLDR: JavaScript • React.js • Redux • Ruby • Ruby on Rails • jQuery • SQL • Git • HTML5 • CSS3 • D3 • Empathy
           </AboutDesc>
         </Inner>
       </Content>
+
+      
+
+
       <Divider fill="#23262b" speed={0.2} offset={4}>
         <WaveWrapper>
           <InnerWave>
