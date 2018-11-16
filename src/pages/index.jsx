@@ -96,7 +96,8 @@ const TechsWrapper = styled.div`
   grid-gap: 2rem;
   grid-template-columns: repeat(5, 1fr);
   @media (max-width: 1200px) {
-    grid-gap: 3rem;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
   }
   @media (max-width: 900px) {
     grid-template-columns: 1fr;
@@ -255,53 +256,63 @@ const Index = () => (
       </Divider>
       <Divider bg="#23262b" clipPath="polygon(0 16%, 100% 4%, 100% 82%, 0 94%)" speed={0.2} offset={3} />
 
-      <Content speed={0.4} offset={1.5} factor={2}>
+      <Content speed={0.4} offset={1.7} factor={2}>
         <Inner>
           <Title>Technologies</Title>
           <TechsWrapper>
             <TechSym
               title="JavaScript"
+              src="https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png"
               bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
             >
             </TechSym>
             <TechSym
               title="React.js"
+              src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
               bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
             >
             </TechSym>
             <TechSym
               title="Redux"
+              src="https://raw.githubusercontent.com/reduxjs/redux/master/logo/logo.png"
               bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
             >
             </TechSym>
             <TechSym
               title="Ruby"
+              src="https://cdn2.iconfinder.com/data/icons/vivid/48/gem-512.png"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
             </TechSym>
             <TechSym
-              title="Ruby on Rails"
+              title="Rails"
+              src="https://cdn3.iconfinder.com/data/icons/popular-services-brands-vol-2/512/ruby-on-rails-512.png"
               bg="hotpink"
             >
             </TechSym>
             <TechSym
               title="SQL"
+              src="https://cdn1.iconfinder.com/data/icons/computer-world/128/database-512.png"
               bg="yellow"
             ></TechSym>
             <TechSym
               title="Git"
+              src="https://cdn0.iconfinder.com/data/icons/social-glyph/30/github-480.png"
               bg="purple"
             ></TechSym>
             <TechSym
               title="HTML5"
+              src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5352_-_HTML5-512.png"
               bg="black"
             ></TechSym>
             <TechSym
               title="CSS3"
+              src="https://cdn3.iconfinder.com/data/icons/social-media-logos-flat-colorful-1/2048/5351_-_CSS3-512.png"
               bg="red"
             ></TechSym>
             <TechSym
               title="D3"
+              src="https://raw.githubusercontent.com/d3/d3-logo/master/d3.png"
               bg="blue"
             ></TechSym>
           </TechsWrapper>
