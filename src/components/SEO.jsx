@@ -20,8 +20,8 @@ const SEO = () => {
   return (
     <Helmet>
       <html lang={config.siteLanguage} />
-      
-      <!-- Global site tag (gtag.js) - Google Analytics -->
+
+      {/* <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-131164922-1"></script>
       <script>
         window.dataLayer = window.dataLayer || [];
@@ -29,7 +29,7 @@ const SEO = () => {
         gtag('js', new Date());
       
         gtag('config', 'UA-131164922-1');
-</script>
+</script> */}
 
       <title>{title}</title>
       <link rel="apple-touch-icon" href="/favicons/apple-touch-icon.png" />
