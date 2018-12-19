@@ -3,6 +3,7 @@ import React from 'react';
 import styled from 'react-emotion';
 import 'typeface-cantata-one';
 import 'typeface-open-sans';
+import ReactGA from "react-ga";
 
 import SEO from '../components/SEO';
 import SVG from '../components/SVG';
@@ -14,6 +15,11 @@ import { colors } from '../../tailwind';
 import triangle from '../images/triangle.svg';
 import avatar from '../images/avatar.jpg';
 import '../styles/global';
+
+function initializeReactGA() {
+  ReactGA.initialize("UA-131164922-1");
+  ReactGA.pageview('/homepage');
+}
 
 let Parallax;
 let ParallaxLayer;
