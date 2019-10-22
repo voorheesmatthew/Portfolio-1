@@ -228,7 +228,7 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Résumé"
-              link="https://drive.google.com/file/d/1q39PUGnTTKL191y7YkMwuDUlf1TXyZG3/view?usp=sharing"
+              link="https://drive.google.com/file/d/1N6-0gWFY8gwK8fh88uwsp9Y02dKHamlN/view?usp=sharing"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
               A snapshot of where I came from, and my experience in Software Development.
