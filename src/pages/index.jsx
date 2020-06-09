@@ -192,7 +192,7 @@ const Index = () => (
           <BigTitle>
             Hello,<br />I'm <br />Matt Voorhees.
           </BigTitle>
-          <Subtitle>I'm creating user-centered code through empathetic processes.</Subtitle>
+          <Subtitle>Software Developer and Support Engineer focused on engaging experiences through empathetic processes.</Subtitle>
         </Hero>
       </Content>
       <DividerMiddle
@@ -228,7 +228,7 @@ const Index = () => (
             </ProjectCard>
             <ProjectCard
               title="Résumé"
-              link="https://drive.google.com/file/d/1N6-0gWFY8gwK8fh88uwsp9Y02dKHamlN/view?usp=sharing"
+              link="https://drive.google.com/file/d/1dlgfNCc6aw6wIWJoxoz9l5e5WjnvDzVv/view?usp=sharing"
               bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
             >
               A snapshot of where I came from, and my experience in Software Development.
